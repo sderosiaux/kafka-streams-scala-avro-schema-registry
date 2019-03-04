@@ -1,6 +1,6 @@
 # kafka-streams-scala-avro-schema-registry
 
-From 2 avro schemas (Sale.avsc and Stock.avsc), the compilation generates the `case class` which inherits `SpecificRecord` to be handled by the Kafka Avro Serde.
+From 2 avro schemas (Sale.avsc and Stock.avsc), the compilation generates the `case class` which inherits `SpecificRecord` to be handled by the Kafka Avro Serde (using `sbt-avrohugger`).
 
 This project depends upon:
 
