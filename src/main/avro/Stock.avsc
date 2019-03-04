@@ -1,0 +1,9 @@
+{
+    "type":"record",
+    "name":"Stock",
+    "namespace":"com.example",
+    "fields":[
+        {"name":"id","type":"string"},
+        {"name":"quantity","type":"int"}
+    ]
+}
