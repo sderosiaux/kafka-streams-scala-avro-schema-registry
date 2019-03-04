@@ -15,7 +15,7 @@ import org.apache.kafka.streams.{KafkaStreams, StreamsConfig}
 
 import scala.collection.JavaConverters._
 
-object Main extends App {
+object StockWithSales extends App {
 
     val config: Properties = {
         val p = new Properties()
